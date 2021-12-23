@@ -1,0 +1,165 @@
+body{
+    background-image: linear-gradient(red,maroon,darkred);
+    height:100%;
+}
+
+h3{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    margin-top: 5px;
+    color:blue;
+    text-decoration: underline;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(54, 51, 51),black);
+    color:greenyellow;
+    font-family: fantasy;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 0px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:greenyellow;
+}
+
+.menu-button{
+    color:greenyellow;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(greenyellow,rgb(3, 156, 3));
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: black;
+    border-style: solid;
+}
+
+.right-menu:hover .dropdown{
+    display: block;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(blue,purple);
+    border-color: grey;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.middle{
+    text-align: center;
+}
+
+.dropdown a:hover{
+    background-image: linear-gradient(red,orange);
+    color:blue;
+    border-color: black;
+}
+
+p{
+    font-family: cursive;
+}
+
+.p{
+    color:blue;
+    font-family: cursive;
+}
+
+.p:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+
+.warning{
+    color:gold;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bodyP{
+    text-align: center;
+    justify-content: center;
+}
+
+.bodyP h5{
+    color:greenyellow;
+    position: absolute;
+    top:15%;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.bodyP p{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:greenyellow;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1{
+    font-family: cursive;
+}
+
+.canvas-container{
+    text-align: center;
+}
+
+canvas{
+    margin: 0 auto; display: block;
+}
+
+.episodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos{
+    margin-top:25px;
+}
+
+.transformations{
+    height:100%;
+}
+
+.episodes img{
+    width: 280px;
+    height: 157.5px;
+    border:solid;
+    border-color: black;
+}
+
+.mostRecentEpisodes img{
+    width: 280px;
+    height: 157.5px;
+    border:solid;
+    border-color: black;
+}
+
+.episodes img:hover{
+    border-color: lime;
+}
+
+.mostRecentEpisodes img:hover{
+    border-color: lime;
+}

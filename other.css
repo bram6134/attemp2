@@ -1,0 +1,30 @@
+body{
+    
+}
+
+.Heading{
+    text-align: centerw;
+    font-size: 15px;
+    padding-bottom: 50;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.button a{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(blue,purple);
+    border-color: rgb(61, 61, 61);
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.button a:hover{
+    background-image: linear-gradient(red,orange);
+    color:blue;
+    border-color: black;
+}
